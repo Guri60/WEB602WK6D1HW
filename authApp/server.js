@@ -194,6 +194,53 @@ app.get("/logout", (req, res, next) => {
 
 });
 
+/* ===========================
+   CREATE USERS (RUN ONCE)
+=========================== 
+
+UserDetails.register(
+  { username: "paul" },
+  "paul",
+  function (err) {
+
+    if (err) {
+      console.log(err);
+    } else {
+      console.log("Paul created");
+    }
+
+  }
+);
+
+UserDetails.register(
+  { username: "john" },
+  "john",
+  function (err) {
+
+    if (err) {
+      console.log(err);
+    } else {
+      console.log("John created");
+    }
+
+  }
+);
+
+UserDetails.register(
+  { username: "mary" },
+  "mary",
+  function (err) {
+
+    if (err) {
+      console.log(err);
+    } else {
+      console.log("Mary created");
+    }
+
+  }
+); */
+
+
 
 /* ===========================
    START SERVER
