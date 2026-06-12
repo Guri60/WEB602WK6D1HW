@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #37474F;
+    font-family: monospace;
+    color: #CFD8DC;
+    font-size: 20px;
+    height: 100vh;
+}
+
+.message-box {
+    text-align: center;
+}
+
+.message-box div {
+    margin-top: 10px;
+}
+
+#welcome-message {
+    text-transform: capitalize;
+}
+
+a {
+    color: azure;
+}
+
+.field {
+    margin: 10px;
+}
+
+input {
+    font-family: monospace;
+    font-size: 20px;
+    border: none;
+    background: #1c232636;
+    color: #CFD8DC;
+    padding: 7px;
+    border: #4c5a61 solid 2px;
+    width: 300px;
+}
+
+.submit-btn {
+    width: 100%;
+}
+
+.title {
+    margin: 10px 0 20px 0;
+}
+
+#error-message {
+    color: #E91E63;
+    display: none;
+    margin: 10px;
+    font-size: large;
+}
